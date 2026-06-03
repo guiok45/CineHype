@@ -1,61 +1,76 @@
-🎥 CineHype – Gestão de Vídeo Clube (Projeto Académico ESTCB)
+CineHype
 
-O CineHype é uma aplicação web full-stack desenvolvida como projeto prático para a Escola Superior de Tecnologia de Castelo Branco (ESTCB). O objetivo principal foi criar um sistema dinâmico e intuitivo para a gestão de um vídeo clube, simulando um ambiente real de aluguer e catálogo de filmes.
+CineHype is a full-stack web application developed as an academic project for the Escola Superior de Tecnologia de Castelo Branco (ESTCB). The project simulates a real-world video rental platform, allowing users to browse movies, manage rentals, and interact with a dynamic catalog while providing administrators with complete control over movie management and inventory.
 
-🛠️ Tecnologias Utilizadas
-
-Para garantir a funcionalidade e o armazenamento de dados, o projeto baseia-se na stack:
-Servidor Local: XAMPP (Apache).
-
-Base de Dados: MySQL, estruturada para gerir utilizadores, inventário de filmes e histórico de alugueres.
-
-Desenvolvimento: PHP (Backend) e HTML5/CSS3/JavaScript (Frontend).
-
-🚀 Como Executar o Projeto
-
-Para que o site funcione corretamente no seu ambiente local, siga estes passos:
-
-Crie uma nova base de dados com o nome "cinehype";
-
-Importe o ficheiro .sql para gerar as tabelas necessárias.
-
-Acesso: Coloque a pasta do projeto dentro do diretório htdocs do XAMPP e aceda através do browser em localhost/cinehype/index.php
-
-✨ Principais Funcionalidades
-
-Registo e autenticação de utilizadores (Login/Signup).
-
-Catálogo de filmes com filtragem por categorias.
-
-Sistema de reserva e aluguer de títulos.
-
-Painel de administração para gestão de stock e devoluções.
-
-🎥 CineHype – Video Rental Management System (ESTCB Academic Project)
-
-CineHype is a full-stack web application developed as a practical academic project for the Escola Superior de Tecnologia de Castelo Branco (ESTCB). The main goal was to create a dynamic and intuitive system for managing a video rental store, simulating a real-world movie rental and catalog environment.
-
-🛠️ Technologies Used
-
-To ensure functionality and data management, the project was built using the following stack:
-
-Local Server: XAMPP (Apache)
-Database: MySQL, structured to manage users, movie inventory, and rental history
-Development: PHP (Backend) and HTML5/CSS3/JavaScript (Frontend)
-
-🚀 How to Run the Project
-
-To run the website correctly in a local environment, follow these steps:
-
-Create a new database named "cinehype"
-Import the .sql file to generate the required tables
-Place the project folder inside the XAMPP htdocs directory
-Access the project through your browser using:
-localhost/cinehype/index.php
-
-✨ Main Features
-
-User registration and authentication (Login/Signup)
+Features
+Public Website
+User registration and authentication
 Movie catalog with category filtering
+Search and browse available movies
 Movie reservation and rental system
-Administration panel for stock and return management
+Responsive design for desktop and mobile devices
+Dynamic content loaded directly from the database
+Administrative Dashboard
+Administrator login system
+Add, edit, and delete movie records
+Upload and manage movie posters and images
+Manage movie categories and information
+Monitor rentals and returns
+Manage inventory and stock availability
+Database-driven content management system
+Technologies Used
+HTML5
+CSS3
+SCSS
+JavaScript
+PHP
+MySQL
+XAMPP
+Installation
+Requirements
+XAMPP
+PHP
+MySQL
+Setup Instructions
+Clone the repository:
+git clone https://github.com/yourusername/CineHype.git
+Move the project folder to the XAMPP htdocs directory:
+C:\xampp\htdocs\
+Start the following services in XAMPP:
+Apache
+MySQL
+Open phpMyAdmin:
+http://localhost/phpmyadmin
+Create a new database named:
+cinehype
+Import the SQL file included in the repository to generate all required tables and data.
+Open the project in your browser:
+http://localhost/cinehype/index.php
+Database
+
+The project requires a MySQL database named:
+
+cinehype
+
+After creating the database, import the provided SQL file to automatically create all tables and relationships required by the application.
+
+Learning Objectives
+
+This project was developed to strengthen practical skills in:
+
+Full-stack web development
+Database design and management
+User authentication systems
+CRUD operations
+Administrative dashboard development
+Responsive web design
+Frontend and backend integration
+
+Author
+
+Guilherme Silva
+
+LinkedIn: [https://linkedin.com/in/guilherme-silva](https://www.linkedin.com/in/guilherme-silva-93a7b833a/)
+About
+
+CineHype was developed as a practical academic project to simulate the operations of a modern video rental platform, combining customer-facing functionality with a complete administrative management system.
